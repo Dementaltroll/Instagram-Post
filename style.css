@@ -1,0 +1,61 @@
+#post{
+    width: 450px;
+    height: 650px;
+    font-family: 'Mulish', sans-serif ;
+    background-color: white;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-toilet-paper-slash{
+    font-size: 30px;
+    padding: 2px;
+    align-items: center;
+}
+
+.fa-ellipsis-vertical{
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    font-size: 25px;
+    padding-right: 4px;
+}
+
+#iden{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content:left;
+}
+
+#primer{
+    display: flex;
+}
+
+#interacciones{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-inline: 4px;
+}
+
+#leyenda{
+    padding-inline: 4px;
+}
